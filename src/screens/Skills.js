@@ -1,6 +1,8 @@
+import './styles/Skills.css'
+
 const Skills = () => {
     return (
-        <div className="Skills">
+        <div className="skills">
             <p>Skills </p>
         </div>
     )

@@ -1,6 +1,8 @@
+import './styles/Experience.css'
+
 const Experience = () => {
     return (
-        <div className="Experience">
+        <div className="experience">
             <p>Experience </p>
         </div>
     )
