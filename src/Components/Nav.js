@@ -1,14 +1,36 @@
-import "./styles/Nav.css";
-
-import { Link } from "react-router-dom";
+import "./styles/Nav.css"
 
 const Nav = () => {
+
     return (
-        <div className="nav">
-            <p>Page Nav</p>
-            <Link to="/About">A propos</Link>
-            <Link to="/Skills">Compétences</Link>
-            <Link to="/Experience">Experience</Link>
+        <div id='nav'>
+          <ul className='navList'>
+            <li data-menuanchor="page1" className="active">
+                <a href="#page1">
+                    À propos
+                </a>
+            </li>
+            <li data-menuanchor="page2" className="active">
+                <a href="#page2">
+                    Compétences
+                </a>
+            </li>
+            <li data-menuanchor="page3" className="active">
+                <a href="#page3">
+                    Expériences
+                </a>
+            </li>
+            <li data-menuanchor="page3" className="active">
+                <a href="#page3">
+                    Contacts
+                </a>
+            </li>
+            <li data-menuanchor="page3" className="active">
+                <a href="#page3">
+                    CV
+                </a>
+            </li>
+          </ul>
         </div>
     )
 }

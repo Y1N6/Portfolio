@@ -1,8 +1,27 @@
-.nav {
+#nav {
+    position: fixed;
+    z-index: 2;
+    width: 100vw;
+    background-color: var(--thirdColor);
+  }
+  
+  .navList {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    position: sticky;
-    top: 10px;
-}
+    height: 120px;
+    font-style: var(--fontTitle);
+    font-size: 24px;
+  }
+  
+  .navList li {
+    font-style: none;
+    list-style:  none;
+    margin: 0 50px
+  }
+  
+  .navList a {
+    text-decoration: none;
+    color: var(--firstColor);
+  }

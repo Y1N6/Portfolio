@@ -18,7 +18,12 @@
 a {text-decoration: none;}
 
 .App {
-    background:var(--gradientColor); font-family: var(--fontBody); min-height: 100vh; background-attachment:fixed; font-style: normal; color: var(--firstColor);
+    background:var(--gradientColor); 
+    font-family: var(--fontBody); 
+    min-height: 100vh; 
+    background-attachment:fixed; 
+    font-style: normal; 
+    color: var(--firstColor);
   }
 
 input,
