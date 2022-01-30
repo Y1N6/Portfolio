@@ -1,0 +1,37 @@
+.contactLogos {
+    position: absolute;
+    bottom: 10px;
+    right : -15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    text-align: center;
+    z-index: 10;
+  }
+  
+  .contactLogos i {
+    color: var(--thirdColor);
+    margin-bottom: 5px;
+  }
+  
+  .contactLogos p {
+    font-size: 1.3em;
+  }
+
+  .contactLogo a {
+      text-decoration: none;
+      color: var(--thirdColor);
+  }
+  
+  .contactLogos {
+    color: var(--firstColor);
+  }
+  
+  .contactLogo {
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }

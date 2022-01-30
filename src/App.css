@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
 :root {
     --firstColor: #ECFEF4;
     --secondColor: #1D1D35;
     --thirdColor: #BE7C4D;
     --gradientColor:#0C2C20;
-    --fontTitle: "IvyJournal" 400;
-    --fontBody: 'Ivyjournal', sans-serif;
+    --fontTitle: 'Skranji' 400;
+    --fontBody: 'Skranji', cursive;
   }
   
 
@@ -18,12 +20,13 @@
 a {text-decoration: none;}
 
 .App {
-    background:var(--gradientColor); 
     font-family: var(--fontBody); 
     min-height: 100vh; 
     background-attachment:fixed; 
     font-style: normal; 
-    color: var(--firstColor);
+    color: var(--firstColor);   
+    background-image: url("https://i.ibb.co/KjhJxzd/background1280x800.png");
+    background-size: cover; 
   }
 
 input,
@@ -38,5 +41,7 @@ ol[role='list'] {
 list-style: none;
 }
 
-h1 h2 {font-family: var(--fontTitle); font-weight: 400; color: var(--thirdColor);}
-
+h1 {
+  color: var(--thirdColor);
+  font-size: 3.5em;
+}

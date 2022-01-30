@@ -1,5 +1,7 @@
 import "./styles/Nav.css"
 
+import CV from '../assets/YannickLanteriCV.pdf'
+
 const Nav = () => {
 
   return (
@@ -26,7 +28,7 @@ const Nav = () => {
                 </a>
             </li>
             <li data-menuanchor="CV" className="active">
-                <a href="#page3">
+                <a href={CV} target="_blank" rel="noopener noreferrer">
                     CV
                 </a>
             </li>
