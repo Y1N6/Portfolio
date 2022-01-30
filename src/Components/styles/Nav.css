@@ -3,6 +3,7 @@
     z-index: 2;
     width: 100vw;
     background-color: var(--thirdColor);
+    opacity: 0.9
   }
   
   .navList {
@@ -24,4 +25,5 @@
   .navList a {
     text-decoration: none;
     color: var(--firstColor);
+    font-size: 1.2em;
   }

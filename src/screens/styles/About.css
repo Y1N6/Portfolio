@@ -12,6 +12,7 @@
   .titleYannickLanteri {
     align-self: flex-start;
     width: 650px;
+    height: auto;
     margin: 70px 0 50px 0;
   }
 
