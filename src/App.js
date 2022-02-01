@@ -13,6 +13,7 @@ import Skills from './screens/Skills';
 
 
 function App() {
+
   return (
     <div className="App">
     <Nav />
@@ -22,8 +23,8 @@ function App() {
     scrollOverflow = {false}
     scrollingSpeed = {1000}
     // navigation <===  Add "navigation" to add a Slider on the right
-    // navigationPosition = {'left'}
     render={({ state, fullpageApi }) => {
+      
       return (  
         <>  
         <ReactFullpage.Wrapper>
