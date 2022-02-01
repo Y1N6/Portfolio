@@ -45,12 +45,14 @@
 }
 
 .skillsBloc h2 {
-  color: var(--secondColor);
+  color: var(--gradientColor);
   font-size: 1.6em;
   margin-bottom: 20px;
+  text-shadow: var(--thirdColor) 2px 1px 0;
 }
 
 .skillsBloc p {
-  width: 75%
+  width: 75%;
+  text-shadow: 2px 2px 2px var(--secondColor)
 }
 

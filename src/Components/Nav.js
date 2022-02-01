@@ -14,27 +14,43 @@ const Nav = () => {
    useEffect(() => {
     console.log(hash)
     if (hash === 'About') {
-      document.querySelector('#About').style.color = 'var(--secondColor)';
+      document.querySelector('#About').style.color = 'var(--gradientColor)';
+      document.querySelector('#About').style.textShadow = 'var(--thirdColor) 2px 1px 0';
       document.querySelector('#Skills').style.color = 'var(--firstColor)';
+      document.querySelector('#Skills').style.textShadow = "2px 2px 2px var(--secondColor)"
       document.querySelector('#Experience1').style.color = 'var(--firstColor)';
+      document.querySelector('#Experience1').style.textShadow = "2px 2px 2px var(--secondColor)";
       document.querySelector('#Contact').style.color = 'var(--firstColor)';
+      document.querySelector('#Contact').style.textShadow = "2px 2px 2px var(--secondColor)"
     } else if (hash === 'Skills')
     {
       document.querySelector('#About').style.color = 'var(--firstColor)';
-      document.querySelector('#Skills').style.color = 'var(--secondColor)';
+      document.querySelector('#About').style.textShadow = '2px 2px 2px var(--secondColor)';
+      document.querySelector('#Skills').style.color = 'var(--gradientColor)';
+      document.querySelector('#Skills').style.textShadow = "var(--thirdColor) 2px 1px 0"
       document.querySelector('#Experience1').style.color = 'var(--firstColor)';
+      document.querySelector('#Experience1').style.textShadow = '2px 2px 2px var(--secondColor)';
       document.querySelector('#Contact').style.color = 'var(--firstColor)';
+      document.querySelector('#Contact').style.textShadow = '2px 2px 2px var(--secondColor)';
     } else if (hash === "Experience1") {
       document.querySelector('#About').style.color = 'var(--firstColor)';
+      document.querySelector('#About').style.textShadow = '2px 2px 2px var(--secondColor)';
       document.querySelector('#Skills').style.color = 'var(--firstColor)';
-      document.querySelector('#Experience1').style.color = 'var(--secondColor)';
+      document.querySelector('#Skills').style.textShadow = "2px 2px 2px var(--secondColor)"
+      document.querySelector('#Experience1').style.color = 'var(--gradientColor)';
+      document.querySelector('#Experience1').style.textShadow = 'var(--thirdColor) 2px 1px 0';
       document.querySelector('#Contact').style.color = 'var(--firstColor)';
+      document.querySelector('#Contact').style.textShadow = '2px 2px 2px var(--secondColor)';
     } else if (hash === 'Contact')
     {
       document.querySelector('#About').style.color = 'var(--firstColor)';
+      document.querySelector('#About').style.textShadow = '2px 2px 2px var(--secondColor)';
       document.querySelector('#Skills').style.color = 'var(--firstColor)';
+      document.querySelector('#Skills').style.textShadow = "2px 2px 2px var(--secondColor)"
       document.querySelector('#Experience1').style.color = 'var(--firstColor)';
-      document.querySelector('#Contact').style.color = 'var(--secondColor)';
+      document.querySelector('#Experience1').style.textShadow = '2px 2px 2px var(--secondColor)';
+      document.querySelector('#Contact').style.color = 'var(--gradientColor)';
+      document.querySelector('#Contact').style.textShadow = 'var(--thirdColor) 2px 1px 0';
     }
     }, [hash])
 

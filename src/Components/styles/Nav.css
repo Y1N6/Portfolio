@@ -1,9 +1,14 @@
+
+
+
 .nav {
     position: fixed;
     z-index: 2;
     width: 100vw;
     background-color: var(--thirdColor);
-    opacity: 0.9
+    opacity: 0.9;
+-webkit-box-shadow: 0px 6px 23px -3px rgba(236,254,244,0.34); 
+box-shadow: 0px 6px 23px -3px rgba(236,254,244,0.34);
   }
   
   .navList {
@@ -26,6 +31,12 @@
     text-decoration: none;
     color: var(--firstColor);
     font-size: 1.2em;
+    text-shadow: 2px 2px 2px var(--secondColor);
+  }
+
+  #About {
+    color: var(--gradientColor);
+    text-shadow: var(--thirdColor) 2px 1px 0;
   }
 
   @media (max-width: 1200px) {
