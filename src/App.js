@@ -18,7 +18,8 @@ function App() {
     <Nav />
     <ContactLogo />
     <ReactFullpage
-    licenseKey = {'YOUR_KEY_HERE'}
+    // licenseKey = {'YOUR_KEY_HERE'}
+    scrollOverflow = {false}
     scrollingSpeed = {1000}
     // navigation <===  Add "navigation" to add a Slider on the right
     // navigationPosition = {'left'}

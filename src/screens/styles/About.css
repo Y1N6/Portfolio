@@ -27,12 +27,13 @@
   justify-content: space-between;
   align-items: center;
   height: 300px;
-  width: 70%;
+  width: 100%;
   padding-top: 30px;
 }
 
 .aboutBlocText {
-  width: 550px; 
+  width: 50%; 
+  max-width: 650px ;
   max-height: 400px;
   font-size: 1.8em;
 }
@@ -51,4 +52,10 @@
 .aboutBlocImg:hover {
   background-image: url(https://i.ibb.co/K2ShZwh/logo-Profil-Yan.png);
 
+}
+
+@media (max-width: 1200px) {
+  p {
+    font-size: 24px;
+  }
 }

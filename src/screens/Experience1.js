@@ -28,7 +28,7 @@ const Experience = () => {
                     <div className="poudlardHover">
                         <h2>Projet Poudlard</h2>
                         <p>Website responsive</p>
-                        <p></p>
+                        <p>Website responsive</p>
                     </div> : ""}
                 </div>
                 <div className="experienceImg starLove" onMouseEnter={starLoveHover} onMouseLeave={starLoveHover}>

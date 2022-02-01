@@ -19,7 +19,7 @@
       border-radius: 30px;
       border: 2px var(--firstColor) solid;
       font-size: 1.4em;
-      margin-top: 50px;
+      margin-top: 2%;
 }
 
 .form input {
@@ -70,3 +70,12 @@
   margin: 20px 0;
 }
 
+@media (max-width: 1200px) {
+  .form {
+    width: 800px;
+  }
+
+  #text {
+    width: 640px;
+  }
+}
