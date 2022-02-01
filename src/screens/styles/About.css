@@ -36,6 +36,11 @@
   max-width: 650px ;
   max-height: 400px;
   font-size: 1.8em;
+
+}
+
+.aboutBlocText p {
+  font-family: cursive;
 }
 
 

@@ -3,6 +3,8 @@ import "./styles/ContactLogo.css"
 const ContactLogo = () => {
     return(
         <>
+        <div className="eyes"></div>
+        <div className="eyes2"></div>
         <div className="linkedIn">
             <div className="contactLogo">
             <a href="https://www.linkedin.com/in/yannick-lanteri/" target="_blank" rel="noopener noreferrer">

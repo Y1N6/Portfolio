@@ -35,7 +35,7 @@ const About = () => {
             <h2>I'm Developper <span ref={el}></span></h2>                    
             <div className="aboutBloc">
                 <div className="aboutBlocText">
-                    <p>Anciennement Responsable Logistique, j'ai décidé de vivre de ma <span>passion</span> du code en passant par l'apprentissage <span>autodidacte</span> avec <span>FreeCodeCamp</span> et <span>OpenClassRoom</span> suivi d'une formation développeur <span>Javascript</span> à la <span>Wild Code School</span>.</p>
+                    <p>Anciennement Responsable Logistique, j'ai décidé de vivre de ma <span>passion</span> du code en passant par l'apprentissage <span>autodidacte</span> avec FreeCodeCamp et OpenClassRoom suivi d'une formation <span>développeur Javascript</span> à la Wild Code School.</p>
                 </div>
                 <div className="aboutBlocImg">
 

@@ -20,6 +20,7 @@
       border: 2px var(--firstColor) solid;
       font-size: 1.4em;
       margin-top: 2%;
+      box-shadow: 2px 2px 20px 4px var(--secondColor);
 }
 
 .form input {
