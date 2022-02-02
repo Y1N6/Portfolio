@@ -14,18 +14,18 @@ const Experience = () => {
             <h2>Projet 2 : Veilleurs de News</h2>
             <h3>Objectif :</h3>
             <p>
-              Regrouper les actualités hebdomadaire de la promo sur un site
+              Regrouper les actualitées hebdomadaire de la promo sur un site
               interactif
             </p>
             <h3>Details :</h3>
             <p>
-              Création de base de données, Dark mode, filtres de recherche,
-              favoris en localstorage, Metadonnées pour créer des miniatures
+              Création de base de données, Dark mode, filtres de recherches,
+              favoris en localStorage, Metadonnées pour créer des miniatures
               visuel
             </p>
-            <h3>HardSkills utilisé :</h3>
+            <h3>HardSkills :</h3>
             <p>
-              React, Js, Mysql, Node, Api, Locastorage, Git/hub, Trello, SCRUM,
+              React, Js, Mysql, Node, Api, Localstorage, Git/hub, Trello, SCRUM,
               HTML, CSS, Metadonnées
             </p>
           </div>
@@ -38,15 +38,15 @@ const Experience = () => {
         <div className="starLove">
           <div className="slideText">
             <h2>Hackaton : Starlove</h2>
-            <h3>HardSkills utilisé :</h3>
-            <p>React, Js, HTML, CSS, Api, Git/hub, Trello,</p>
             <h3>Objectif :</h3>
-            <p>Consoomer l'Api Starwars</p>
+            <p>Consommer l'Api Starwars</p>
             <h3>Details :</h3>
             <p>
-              Site type Chatroulette avec rencontre aléatoire, Chat intégré avec
-              réponse automatique
+              Site de rencontre type chat avec rencontre aléatoire, un chat
+              intégré avec réponse automatique
             </p>
+            <h3>HardSkills :</h3>
+            <p>React, Js, HTML, CSS, Api, Git/hub, Trello,</p>
           </div>
           <div className="slideImg">
             <img src={StarLove} alt="Starlove"></img>
@@ -57,15 +57,15 @@ const Experience = () => {
         <div className="poudlard">
           <div className="slideText">
             <h2>Projet 1 : Poudlard academy</h2>
-            <h3>HardSkills utilisé :</h3>
-            <p>HTML, CSS, Javascript, Git/hub</p>
             <h3>Objectif :</h3>
             <p>Création d'un premier site fictif de l'école de Poudlard</p>
             <h3>Details :</h3>
             <p>
-              Création d'un menu, footer, responsible mobile first, intégration
+              Création d'un menu, footer, responsive mobile first, intégration
               Google Map
             </p>
+            <h3>HardSkills :</h3>
+            <p>HTML, CSS, Javascript, Git/hub</p>
           </div>
           <div className="slideImg">
             <img src={Poudlard} alt="Poudlard Academy"></img>

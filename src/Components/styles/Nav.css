@@ -43,3 +43,28 @@
     font-size: 20px;
   }
 }
+
+@media (max-width: 700px) {
+  .nav {
+    bottom: 0;
+    opacity: 1;
+  }
+  .navList {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+  }
+  .navList li {
+    transform: rotate(-30deg);
+
+    margin: 0 0 0 0;
+  }
+  .navList a {
+    font-size: 0.9em;
+  }
+  #navCV {
+    display: none;
+  }
+}
