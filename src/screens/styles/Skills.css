@@ -54,7 +54,8 @@
 
 .skillsBloc p {
   width: 75%;
-  text-shadow: 2px 2px 2px var(--secondColor)
+  text-shadow: 2px 2px 2px var(--secondColor);
+  font-family: cursive;
 }
 
 @media (min-height: 800px) {
