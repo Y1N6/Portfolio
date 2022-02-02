@@ -1,67 +1,78 @@
-  .linkedIn {
-    position: absolute;
-    bottom: 10px;
-    right : -15px;
-    margin-top: 25px;
-    text-align: center;
-    z-index: 10;
-  }
+.linkedIn {
+  position: absolute;
+  bottom: 10px;
+  right: -15px;
+  margin-top: 25px;
+  text-align: center;
+  z-index: 10;
+}
 
-  .gitHub {
-    position: absolute;
-    bottom: 10px;
-    left : 0;
-    margin-top: 25px;
-    text-align: center;
-    z-index: 10;
-  }
-  
-  .linkedIn i, .gitHub i {
-    color: var(--thirdColor);
-    margin-bottom: 5px;
-  }
-  
-  .linkedIn p, .gitHub p {
-    font-size: 1.3em;
-  }
+.gitHub {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  margin-top: 25px;
+  text-align: center;
+  z-index: 10;
+}
 
-  .contactLogo a {
-      text-decoration: none;
-      color: var(--thirdColor);
-  }
-    
-  .contactLogo {
-    margin: 0 25px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-  }
+.linkedIn i,
+.gitHub i {
+  color: var(--thirdColor);
+  margin-bottom: 5px;
+}
 
-  .eyes {
-    width: 6px;
-    border: 1px solid var(--secondColor);
-    background-color: var(--firstColor);
-    border-radius: 50%;
-    position: absolute;
-    bottom: 68px;
-    left: 47px;
-    animation: close 3s infinite;
-  }
+.linkedIn p,
+.gitHub p {
+  font-size: 1.3em;
+  font-family: "Source Code Pro", monospace;
+}
 
-  .eyes2 {
-    width: 6px;
-    border: 1px solid var(--secondColor);
-    background-color: var(--firstColor);
-    border-radius: 50%;
-    position: absolute;
-    bottom: 68px;
-    left: 57px;
-    animation: close 3s infinite;
-  }
+.contactLogo a {
+  text-decoration: none;
+  color: var(--thirdColor);
+}
 
-  @keyframes close {
-    0% {height: 6px}
-    2% {height: 1px}
-    4% {height: 6px}
-    100% {height: 6px}
+.contactLogo {
+  margin: 0 25px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.eyes {
+  width: 6px;
+  border: 1px solid var(--secondColor);
+  background-color: var(--firstColor);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 67px;
+  left: 54px;
+  animation: close 3s infinite;
+}
+
+.eyes2 {
+  width: 6px;
+  border: 1px solid var(--secondColor);
+  background-color: var(--firstColor);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 67px;
+  left: 64px;
+  animation: close 3s infinite;
+}
+
+@keyframes close {
+  0% {
+    height: 6px;
   }
+  2% {
+    height: 1px;
+  }
+  4% {
+    height: 6px;
+  }
+  100% {
+    height: 6px;
+  }
+}

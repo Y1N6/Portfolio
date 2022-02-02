@@ -1,48 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Skranji&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600&display=swap");
 
 :root {
-    --firstColor: #ECFEF4;
-    --secondColor: #1D1D35;
-    --thirdColor: #BE7C4D;
-    --gradientColor:#0C2C20;
-    --fontTitle: 'Skranji' 400;
-    --fontBody: 'Skranji', cursive;
-  }
-  
-
-*, ::before, ::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  --firstColor: #ecfef4;
+  --secondColor: #1d1d35;
+  --thirdColor: #be7c4d;
+  --gradientColor: #0c2c20;
+  --fontTitle: "Skranji" 400;
+  --fontBody: "Skranji", cursive;
 }
 
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-a {text-decoration: none;}
+a {
+  text-decoration: none;
+}
 
 .App {
-    font-family: var(--fontBody); 
-    min-height: 100vh; 
-    background-attachment:fixed; 
-    font-style: normal; 
-    color: var(--firstColor);   
-    background-image: url("https://i.ibb.co/KjhJxzd/background1280x800.png");
-    background-size: cover; 
-  }
+  font-family: var(--fontBody);
+  min-height: 100vh;
+  background-attachment: fixed;
+  font-style: normal;
+  color: var(--firstColor);
+  background-image: url("https://i.ibb.co/KjhJxzd/background1280x800.png");
+  background-size: cover;
+}
 
 input,
 button,
 textarea,
 select {
-font: inherit;
+  font: inherit;
 }
 
-ul[role='list'],
-ol[role='list'] {
-list-style: none;
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
 }
 
 h1 {
   color: var(--thirdColor);
   font-size: 3.5em;
-  text-shadow: 1px 1px 1px var(--secondColor)
+  text-shadow: 1px 1px 1px var(--secondColor);
+}
+
+p,
+h3,
+h2 {
+  font-family: "Source Code Pro", monospace;
+}
+
+p {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 600;
 }
