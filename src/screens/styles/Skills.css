@@ -78,3 +78,45 @@
     width: 90%;
   }
 }
+
+@media (max-width: 700px) {
+  .skills h1 {
+    font-size: 1.6em;
+    top: 30px;
+  }
+  .skillsMarginTop {
+    height: 0;
+  }
+  .skillsBlocs {
+    margin: 0;
+    padding: 0px 0 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .skillsBlocsUp,
+  .skillsBlocsDown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .skillsBloc {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+  }
+  .skillsBloc h2 {
+    margin-bottom: 5px;
+    font-size: 1em;
+  }
+  .skillsBloc p {
+    font-size: 0.7em;
+    width: 95%;
+  }
+  .skillsBlocsUp {
+    margin-bottom: 0;
+  }
+}

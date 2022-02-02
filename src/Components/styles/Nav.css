@@ -50,11 +50,12 @@
     opacity: 1;
   }
   .navList {
-    height: 80px;
+    height: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100vw;
+    border-top: 2px solid var(--firstColor);
   }
   .navList li {
     transform: rotate(-30deg);

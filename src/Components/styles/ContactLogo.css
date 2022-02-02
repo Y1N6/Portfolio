@@ -94,4 +94,12 @@
   .gitHub p {
     font-size: 0.8em;
   }
+  .eyes {
+    top: 25px;
+    left: 42px;
+  }
+  .eyes2 {
+    top: 25px;
+    left: 48px;
+  }
 }
