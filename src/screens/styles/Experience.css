@@ -93,3 +93,74 @@
     height: 500px;
   }
 }
+
+@media (max-width: 700px) {
+  .experience h1 {
+    top: 30px;
+    font-size: 1.47em;
+  }
+  .vDNews,
+  .starLove,
+  .poudlard {
+    flex-direction: column;
+    padding-bottom: 70px;
+  }
+
+  .vDNews img,
+  .starLove img,
+  .poudlard img {
+    height: 80%;
+    width: 80%;
+    align-self: center;
+  }
+
+  .slideImg {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slide {
+    margin: 20px 0 0 0;
+  }
+
+  .fp-controlArrow {
+    position: absolute;
+    top: 85%;
+  }
+
+  .fp-controlArrow.fp-prev {
+    left: 10px;
+    border-color: transparent var(--firstColor) transparent transparent;
+    border-width: 15px 20px 15px 0;
+  }
+
+  .fp-controlArrow.fp-next {
+    right: 10px;
+    border-color: transparent transparent transparent var(--firstColor);
+    border-width: 15px 0 15px 20px;
+  }
+
+  .slideText {
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    margin: 0;
+    padding: 0 0 2px 0;
+  }
+  .slideText h2 {
+    font-size: 0.9em;
+    margin-top: 4px;
+  }
+  .slideText h3 {
+    margin: 3px 0;
+    font-size: 0.8em;
+  }
+  .slideText p {
+    font-size: 0.7em;
+    line-height: 1em;
+    width: 99%;
+  }
+}
