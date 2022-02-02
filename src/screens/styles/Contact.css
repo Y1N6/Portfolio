@@ -94,3 +94,62 @@
     width: 640px;
   }
 }
+
+@media (max-width: 700px) {
+  .contact h1 {
+    font-size: 1.6em;
+    top: 30px;
+  }
+  .form {
+    margin: 0;
+    width: 90%;
+    font-size: 0.9em;
+  }
+
+  .formFirstLine,
+  .formSecondLine {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 10px;
+  }
+  #text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+  }
+
+  .form input {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .formInput {
+    width: 90%;
+  }
+
+  .formInputInput {
+    width: 90%;
+    align-self: center;
+  }
+
+  .formInput textarea {
+    width: 100%;
+  }
+
+  .formLastLine {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

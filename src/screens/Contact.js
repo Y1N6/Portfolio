@@ -52,7 +52,7 @@ const Contact = () => {
       <h1>Me Contacter</h1>
       <form className="form" ref={form} onSubmit={sendEmail}>
         <div className="formFirstLine">
-          <div>
+          <div className="formInput">
             <label htmlFor="name">Nom Prénom*</label>
             <br />
             <input
@@ -66,7 +66,7 @@ const Contact = () => {
               value={name}
             ></input>
           </div>
-          <div>
+          <div className="formInput">
             <label htmlFor="company">Société</label>
             <br />
             <input
@@ -81,7 +81,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="formSecondLine">
-          <div>
+          <div className="formInput">
             <label htmlFor="email">Email*</label>
             <br />
             <input
@@ -94,7 +94,7 @@ const Contact = () => {
               value={email}
             ></input>
           </div>
-          <div>
+          <div className="formInput">
             <label htmlFor="phone">Téléphone</label>
             <br />
             <input
@@ -108,7 +108,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="formLastLine">
-          <div>
+          <div className="formInput formInputInput">
             <label htmlFor="text">Votre message</label>
             <br />
             <textarea
