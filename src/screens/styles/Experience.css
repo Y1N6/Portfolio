@@ -173,7 +173,7 @@
   }
 
   .fp-controlArrow.fp-prev {
-    left: 5px;
+    left: 1px;
     border: none;
     background-image: url(../../assets/left-arrow.png);
     width: 30px;
@@ -181,7 +181,7 @@
   }
 
   .fp-controlArrow.fp-next {
-    right: 5px;
+    right: 1px;
     border: none;
     background-image: url(../../assets/rightarrow.png);
     width: 30px;
