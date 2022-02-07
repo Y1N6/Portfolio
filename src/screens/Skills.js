@@ -3,7 +3,6 @@ import "./styles/Skills.css";
 const Skills = () => {
   return (
     <div className="skills">
-      <div className="skillsMarginTop"></div>
       <h1>Compétences</h1>
       <div className="skillsBlocs">
         <div className="skillsBlocsUp">
@@ -19,7 +18,7 @@ const Skills = () => {
         <div className="skillsBlocsDown">
           <div className="skillsBloc">
             <h2>Design</h2>
-            <p>Responsive, Figma, Photoshop</p>
+            <p>UX, UI, Responsive, Figma, Photoshop</p>
           </div>
           <div className="skillsBloc">
             <h2>Méthodes de travail</h2>

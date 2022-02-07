@@ -3,13 +3,40 @@ import "./styles/Experience.css";
 import Poudlard from "../assets/Poudlard1.png";
 import StarLove from "../assets/StarLove.png";
 import VDN from "../assets/vdn3.png";
+import WinaGlade from "../assets/winaGlade.png";
 
 const Experience = () => {
   return (
     <div className="experience">
       <h1>Experience </h1>
       <div className="slide">
-        <div className="vDNews">
+        <div className="slideBloc">
+          <div className="slideText">
+            <h2>Hackaton : WinaGlade</h2>
+            <h3>Objectif :</h3>
+            <p>Ramener une technologie actuelle dans le passé</p>
+            <h3>Details :</h3>
+            <p>
+              Création d'un site de paris sportif autour des gladiateurs,
+              échange entre back et front sur la base de données
+            </p>
+            <h3>HardSkills :</h3>
+            <p>React, Js, Mysql, Node, Git/hub, HTML, CSS, Base de données</p>
+          </div>
+          <div className="slideImg">
+            <a
+              className="slideBlocRepos"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Y1N6/MunschThomas-Winaglade_Frontend_Wcs_02-2022/tree/dev"
+            >
+              <img src={WinaGlade} alt="veilleur de news"></img>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="slide">
+        <div className="slideBloc">
           <div className="slideText">
             <h2>Projet 2 : Veilleurs de News</h2>
             <h3>Objectif :</h3>
@@ -30,12 +57,19 @@ const Experience = () => {
             </p>
           </div>
           <div className="slideImg">
-            <img src={VDN} alt="veilleur de news"></img>
+            <a
+              className="slideBlocRepos"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Y1N6/11-21-noBugNovember-G2-Front/tree/dev/"
+            >
+              <img src={VDN} alt="veilleur de news"></img>
+            </a>
           </div>
         </div>
       </div>
       <div className="slide">
-        <div className="starLove">
+        <div className="slideBloc">
           <div className="slideText">
             <h2>Hackaton : Starlove</h2>
             <h3>Objectif :</h3>
@@ -49,12 +83,19 @@ const Experience = () => {
             <p>React, Js, HTML, CSS, Api, Git/hub, Trello,</p>
           </div>
           <div className="slideImg">
-            <img src={StarLove} alt="Starlove"></img>
+            <a
+              className="slideBlocRepos"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Y1N6/Hackaton-12-2021-StarLove"
+            >
+              <img src={StarLove} alt="Starlove"></img>
+            </a>
           </div>
         </div>
       </div>
       <div className="slide">
-        <div className="poudlard">
+        <div className="slideBloc">
           <div className="slideText">
             <h2>Projet 1 : Poudlard academy</h2>
             <h3>Objectif :</h3>
@@ -66,9 +107,17 @@ const Experience = () => {
             </p>
             <h3>HardSkills :</h3>
             <p>HTML, CSS, Javascript, Git/hub</p>
+            <p>Github :</p>
           </div>
           <div className="slideImg">
-            <img src={Poudlard} alt="Poudlard Academy"></img>
+            <a
+              className="slideBlocRepos"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Y1N6/WCS-Projet1-2021-Poudlard"
+            >
+              <img src={Poudlard} alt="Poudlard Academy"></img>
+            </a>
           </div>
         </div>
       </div>

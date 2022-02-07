@@ -7,6 +7,7 @@
   background-image: url(../../assets/branche2.png);
   background-size: cover;
   margin-left: 140px;
+  overflow: hidden;
 }
 
 .titleYannickLanteri {
@@ -93,5 +94,15 @@
   }
   .aboutBlocText {
     width: 90%;
+  }
+  .nav {
+    display: none;
+  }
+
+  .fa-arrow-down {
+    display: none;
+    position: absolute;
+    bottom: 85px;
+    right: 20px;
   }
 }

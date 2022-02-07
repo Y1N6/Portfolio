@@ -17,9 +17,7 @@
   width: 100vw;
 }
 
-.vDNews,
-.starLove,
-.poudlard {
+.slideBloc {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -27,18 +25,26 @@
   width: 100vw;
 }
 
-.vDNews img,
-.starLove img,
-.poudlard img {
+.slideBloc img {
   height: 100%;
   width: 100%;
-  border: 2px solid var(--firstColor);
+  border: 5px solid var(--firstColor);
   border-radius: 20px;
 }
 
-.slideImg {
-  width: 600px;
+.slideBloc video {
   height: 400px;
+  width: 100%;
+  border: 2px solid var(--firstColor);
+  border-radius: 20px;
+  /* object-fit: cover; */
+  object-position: cover;
+}
+
+.slideImg {
+  width: 580px;
+  height: 400px;
+  position: relative;
 }
 
 .slideText {
@@ -46,26 +52,22 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: var(--thirdColor);
   opacity: 0.9;
   border-radius: 20px;
-  border: 5px var(--firstColor) solid;
   font-size: 1.2em;
   text-align: center;
   margin: 0 30px 0 0;
-  box-shadow: 2px 2px 20px 4px var(--secondColor);
-  width: 600px;
+  width: 580px;
   height: 400px;
 }
 
 .slideText h2 {
-  color: var(--gradientColor);
-  text-shadow: 1px 1px 4px var(--firstColor);
+  color: var(--thirdColor);
   font-weight: bold;
 }
 
 .slideText h3 {
-  color: var(--secondColor);
+  color: var(--thirdColor);
   margin: 10px 0;
   font-weight: bold;
 }
@@ -99,23 +101,35 @@
     top: 30px;
     font-size: 1.47em;
   }
-  .vDNews,
-  .starLove,
-  .poudlard {
+  .slideBloc {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding-bottom: 70px;
   }
 
-  .vDNews img,
-  .starLove img,
-  .poudlard img {
-    height: 80%;
-    width: 80%;
+  .slideBlocRepos {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+  }
+
+  .slideBloc img {
+    border: 1px solid var(--firstColor);
     align-self: center;
   }
 
+  .slideText * {
+    display: none;
+  }
+
+  .slideText h2 {
+    display: block;
+  }
+
   .slideImg {
-    width: 90%;
+    width: 100%;
     height: auto;
     margin-top: 20px;
     display: flex;
@@ -128,7 +142,7 @@
 
   .fp-controlArrow {
     position: absolute;
-    top: 85%;
+    top: 90%;
   }
 
   .fp-controlArrow.fp-prev {

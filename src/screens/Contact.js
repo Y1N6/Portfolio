@@ -108,7 +108,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="formLastLine">
-          <div className="formInput formInputInput">
+          <div className="formInput">
             <label htmlFor="text">Votre message</label>
             <br />
             <textarea
