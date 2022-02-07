@@ -86,6 +86,10 @@
   color: var(--secondColor);
 }
 
+.backToTop {
+  margin-top: 20px;
+}
+
 @media (max-width: 1200px) {
   .form {
     width: 800px;

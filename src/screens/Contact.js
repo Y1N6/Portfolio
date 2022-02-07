@@ -1,9 +1,10 @@
 import "./styles/Contact.css";
+import ReactFullpage from "@fullpage/react-fullpage";
 
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 
-const Contact = () => {
+const Contact = (props) => {
   // Formulaire de contact
 
   const form = useRef();
@@ -130,6 +131,12 @@ const Contact = () => {
           </button>
         </div>
       </form>
+      <div
+        className="backToTop"
+        onClick={() => props.fullpageApi.moveTo("About")}
+      >
+        Revenir à l'accueil
+      </div>
     </div>
   );
 };

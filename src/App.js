@@ -34,7 +34,7 @@ function App() {
                   <Experience1 />
                 </div>
                 <div className="section" data-anchor="Contact">
-                  <Contact />
+                  <Contact fullpageApi={fullpageApi} />
                 </div>
               </ReactFullpage.Wrapper>
               <Routes>
