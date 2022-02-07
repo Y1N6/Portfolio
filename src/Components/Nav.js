@@ -1,6 +1,7 @@
 import "./styles/Nav.css";
 
 import CV from "../assets/YannickLanteriCV.pdf";
+import Ninja from "../assets/ninja2.png";
 
 import { useEffect, useState } from "react";
 
@@ -72,6 +73,7 @@ const Nav = () => {
 
   return (
     <div className="nav">
+      {/* <img className="ninjaLogo" src={Ninja} alt="ninja"></img> */}
       <ul className="navList" id="myMenu">
         <li data-menuanchor="About">
           <a href="#About" id="About">

@@ -50,17 +50,28 @@
 .aboutBlocImg {
   width: 500px;
   height: 500px;
-  background-image: url(https://i.ibb.co/tPLDP6N/logo-Profil-Ninja.png);
+  background-image: url(https://i.ibb.co/K2ShZwh/logo-Profil-Yan.png);
   background-size: cover;
   transition: 0.9s;
 }
 .aboutBlocImg:hover {
-  background-image: url(https://i.ibb.co/K2ShZwh/logo-Profil-Yan.png);
+  background-image: url(https://i.ibb.co/tPLDP6N/logo-Profil-Ninja.png);
 }
 
 @media (max-width: 1200px) {
   p {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 850px) {
+  .about {
+    margin: 0 0 0 20px;
+  }
+  .titleYannickLanteri {
+    width: 300px;
+    margin-bottom: 20px;
+    align-self: center;
   }
 }
 
@@ -79,6 +90,7 @@
     margin: 0;
     align-self: center;
   }
+
   .aboutBlocImg {
     display: none;
   }

@@ -83,19 +83,19 @@
 }
 
 .fp-controlArrow.fp-prev {
-  left: 10px;
+  left: 10px !important;
   border: none;
   background-image: url(../../assets/leftarrow.png);
-  width: 60px;
-  height: 60px;
+  width: 60px !important;
+  height: 60px !important;
 }
 
 .fp-controlArrow.fp-next {
-  right: 10px;
+  right: 10px !important;
   border: none;
   background-image: url(../../assets/right-arrow.png);
-  width: 60px;
-  height: 60px;
+  width: 60px !important;
+  height: 60px !important;
 }
 
 @media (max-width: 1200px) {
@@ -173,19 +173,19 @@
   }
 
   .fp-controlArrow.fp-prev {
-    left: 1px;
+    left: 1px !important;
     border: none;
     background-image: url(../../assets/left-arrow.png);
-    width: 30px;
-    height: 30px;
+    width: 30px !important;
+    height: 30px !important;
   }
 
   .fp-controlArrow.fp-next {
-    right: 1px;
+    right: 1px !important;
     border: none;
     background-image: url(../../assets/rightarrow.png);
-    width: 30px;
-    height: 30px;
+    width: 30px !important;
+    height: 30px !important;
   }
 
   .slideImg h2 {
