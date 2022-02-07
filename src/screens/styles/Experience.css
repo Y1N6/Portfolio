@@ -85,9 +85,7 @@
 .fp-controlArrow.fp-prev {
   left: 10px;
   border: none;
-  background-image: url(../../assets/right-arrow.png);
-  transform: rotate(180deg);
-  /* background-color: red; */
+  background-image: url(../../assets/leftarrow.png);
   width: 60px;
   height: 60px;
 }
@@ -96,7 +94,6 @@
   right: 10px;
   border: none;
   background-image: url(../../assets/right-arrow.png);
-  /* background-color: red; */
   width: 60px;
   height: 60px;
 }
@@ -178,9 +175,7 @@
   .fp-controlArrow.fp-prev {
     left: 5px;
     border: none;
-    background-image: url(../../assets/rightarrow.png);
-    transform: rotate(180deg);
-    /* background-color: red; */
+    background-image: url(../../assets/left-arrow.png);
     width: 30px;
     height: 30px;
   }
@@ -189,7 +184,6 @@
     right: 5px;
     border: none;
     background-image: url(../../assets/rightarrow.png);
-    /* background-color: red; */
     width: 30px;
     height: 30px;
   }
