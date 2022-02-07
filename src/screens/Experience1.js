@@ -24,6 +24,7 @@ const Experience = () => {
             <p>React, Js, Mysql, Node, Git/hub, HTML, CSS, Base de données</p>
           </div>
           <div className="slideImg">
+            <h2>Hackaton : WinaGlade</h2>
             <a
               className="slideBlocRepos"
               target="_blank"
@@ -57,6 +58,7 @@ const Experience = () => {
             </p>
           </div>
           <div className="slideImg">
+            <h2>Projet 2 : Veilleurs de News</h2>
             <a
               className="slideBlocRepos"
               target="_blank"
@@ -83,6 +85,7 @@ const Experience = () => {
             <p>React, Js, HTML, CSS, Api, Git/hub, Trello,</p>
           </div>
           <div className="slideImg">
+            <h2>Hackaton : Starlove</h2>
             <a
               className="slideBlocRepos"
               target="_blank"
@@ -110,6 +113,7 @@ const Experience = () => {
             <p>Github :</p>
           </div>
           <div className="slideImg">
+            <h2>Projet 1 : Poudlard academy</h2>
             <a
               className="slideBlocRepos"
               target="_blank"

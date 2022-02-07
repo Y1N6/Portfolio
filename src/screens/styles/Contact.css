@@ -94,6 +94,9 @@
   #text {
     width: 640px;
   }
+  .contact h1 {
+    top: 110px;
+  }
 }
 
 @media (max-width: 700px) {
