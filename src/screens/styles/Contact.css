@@ -34,6 +34,11 @@
   height: 35px;
   font-size: 0.8em;
   padding: 5px;
+  opacity: 0.9;
+}
+
+.form input::placeholder {
+  opacity: 0.5;
 }
 
 .form label {
@@ -68,6 +73,20 @@
   border-radius: 10px;
 }
 
+.form textarea {
+  background-color: var(--firstColor);
+  border-radius: 10px;
+  width: 240px;
+  height: 35px;
+  font-size: 0.8em;
+  padding: 5px;
+  opacity: 0.9;
+}
+
+textarea::placeholder {
+  opacity: 0.5;
+}
+
 .submit {
   display: flex;
   flex-direction: row;
@@ -88,6 +107,33 @@
 
 .backToTop {
   margin-top: 20px;
+  cursor: pointer;
+}
+
+.fa-chevron-up {
+  margin: 0 5px;
+}
+
+.dialog {
+  background-color: var(--thirdColor) !important;
+  color: var(--secondColor);
+  opacity: 1;
+  border-radius: 30px;
+  width: 280px !important;
+  height: 60px !important;
+  margin: 50vh auto !important;
+  padding: 20px !important;
+}
+
+.dialog p {
+  text-align: center;
+  font-weight: bold;
+}
+
+[data-reach-dialog-overlay] {
+  background: rgba(0, 0, 0, 0.8) !important;
+  z-index: 200000000000 !important;
+  overflow: hidden !important;
 }
 
 @media (max-width: 1200px) {

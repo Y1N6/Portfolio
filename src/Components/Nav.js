@@ -14,7 +14,7 @@ const Nav = () => {
     setHash(window.location.hash.substring(1))
   );
   useEffect(() => {
-    console.log(hash);
+    // console.log(hash);
     if (hash === "About") {
       document.querySelector("#About").style.color = "var(--gradientColor)";
       document.querySelector("#About").style.textShadow =

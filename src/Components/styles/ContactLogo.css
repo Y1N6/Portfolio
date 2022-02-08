@@ -30,7 +30,7 @@
 
 .contactLogo a {
   text-decoration: none;
-  color: var(--thirdColor);
+  color: var(--firstColor);
 }
 
 .contactLogo {
@@ -88,20 +88,20 @@
     top: 80px;
     z-index: 1;
   }
-  .linkedIn i,
+  /* .linkedIn i,
   .gitHub i {
     font-size: 30px;
-  }
+  } */
   .linkedIn p,
   .gitHub p {
     font-size: 0.8em;
   }
   .eyes {
-    top: 135px;
+    top: 142px;
     left: 42px;
   }
   .eyes2 {
-    top: 135px;
+    top: 142px;
     left: 48px;
   }
 }

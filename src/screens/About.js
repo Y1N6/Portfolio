@@ -15,7 +15,7 @@ const About = () => {
         "HTML",
         "CSS",
         "REACT ",
-        "NODE",
+        "NODE.JS",
       ], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       startDelay: 300,

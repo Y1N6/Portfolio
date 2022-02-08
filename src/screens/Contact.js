@@ -1,10 +1,25 @@
 import "./styles/Contact.css";
-import ReactFullpage from "@fullpage/react-fullpage";
+// import Modal
+import { Dialog } from "@reach/dialog";
+import "@reach/dialog/styles.css";
 
 import emailjs from "@emailjs/browser";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 
 const Contact = (props) => {
+  // Modal
+
+  const [showDialog, setShowDialog] = useState(false);
+  const open = () => setShowDialog(true);
+  const close = () => setShowDialog(false);
+
+  useEffect(() => {
+    if (showDialog === true) {
+      setTimeout(() => setShowDialog(false), 1500);
+    }
+  }, [showDialog]);
+
+  // Fin du Modal
   // Formulaire de contact
 
   const form = useRef();
@@ -27,6 +42,7 @@ const Contact = (props) => {
           console.log(error.text);
         }
       );
+    open();
     deleteInformation();
   };
 
@@ -44,7 +60,7 @@ const Contact = (props) => {
     setCompany("");
     setEmail("");
     setPhone("");
-    setMessage("Merci pour votre mail, à bientôt.");
+    setMessage("");
   };
 
   // remise à 0 du formulaire
@@ -135,8 +151,14 @@ const Contact = (props) => {
         className="backToTop"
         onClick={() => props.fullpageApi.moveTo("About")}
       >
-        Revenir à l'accueil
+        <i className="fas fa-chevron-up"></i>Revenir à l'accueil
+        <i className="fas fa-chevron-up"></i>
       </div>
+      <Dialog isOpen={showDialog} onDismiss={close} className="dialog">
+        <p>
+          <i class="fas fa-check"></i> Email envoyé !
+        </p>
+      </Dialog>
     </div>
   );
 };

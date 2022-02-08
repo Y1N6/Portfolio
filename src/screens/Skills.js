@@ -13,7 +13,7 @@ const Skills = () => {
             </div>
             <div className="skillsBloc">
               <h2>Back-end</h2>
-              <p>Javascript, Node, Express, MySQL, Workbench</p>
+              <p>Javascript, Node.js, Express, MySQL, Workbench</p>
             </div>
           </div>
           <div className="skillsBlocsDown">

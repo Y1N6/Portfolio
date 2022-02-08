@@ -8,7 +8,7 @@ import WinaGlade from "../assets/winaGlade.png";
 const Experience = () => {
   return (
     <div className="experience">
-      <h1>Experience </h1>
+      <h1>Experiences </h1>
       <div className="slide">
         <div className="slideBloc">
           <div className="slideText">
