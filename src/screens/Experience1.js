@@ -4,11 +4,36 @@ import Poudlard from "../assets/Poudlard1.png";
 import StarLove from "../assets/StarLove.png";
 import VDN from "../assets/vdn3.png";
 import WinaGlade from "../assets/winaGlade.png";
+import Pizza from "../assets/pizza2.jpg";
 
 const Experience = () => {
   return (
     <div className="experience">
       <h1>Experiences </h1>
+      <div className="slide">
+        <div className="slideBloc">
+          <div className="slideText">
+            <h2>Client : Pizzeria</h2>
+            <h3>Objectif :</h3>
+            <p>Créer un site vitre pour commander des pizzas</p>
+            <h3>Details :</h3>
+            <p>Création d'un site interactif, utilisant une api du menu</p>
+            <h3>HardSkills :</h3>
+            <p>React, Js, Node, Git/hub, HTML, CSS, Api</p>
+          </div>
+          <div className="slideImg">
+            <h2>Client : Pizzeria</h2>
+            <a
+              className="slideBlocRepos"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://y1n6.github.io/pizzeria/"
+            >
+              <img src={Pizza} alt="veilleur de news"></img>
+            </a>
+          </div>
+        </div>
+      </div>
       <div className="slide">
         <div className="slideBloc">
           <div className="slideText">
