@@ -95,11 +95,11 @@ const Nav = () => {
             Contact
           </a>
         </li>
-        <li data-menuanchor="CV" id="navCV">
+        {/* <li data-menuanchor="CV" id="navCV">
           <a href={CV} target="_blank" rel="noopener noreferrer">
             CV
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
